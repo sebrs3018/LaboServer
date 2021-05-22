@@ -18,15 +18,23 @@ public class Cliente implements Runnable {
 
 
 
-    public Cliente(String _targa, String _marca, ServerSocket _serverSocket){
+    public Cliente(String _targa, String _marca){
         targa = _targa;
         marca = _marca;
          try {
             InetAddress addr;
-            clientSocket = createSocket();
+            clientSocket = new Socket("localhost", 9090);
+            InputStream is = clientSocket.getInputStream();//non ci dovrebbe servire
+            os = clientSocket.getOutputStream();
+
             addr = clientSocket.getInetAddress();
             System.out.println("Connected to " + addr);
-        } catch (java.io.IOException e) {
+
+
+             BufferedReader in = new BufferedReader(
+                     new InputStreamReader(clientSocket.getInputStream()));
+
+         } catch (IOException e) {
             System.out.println("Can't connect to localhost");
             System.out.println(e);
         }
