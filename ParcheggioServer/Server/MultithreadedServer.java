@@ -13,11 +13,13 @@ public class MultithreadedServer implements  Runnable{
     protected boolean       isStopped       = false;
     protected Thread        runnningThread  = null;
     private final ExecutorService workerThreads;
+    protected Parcheggio parcheggio;
 
 
-    public MultithreadedServer(int port){
+    public MultithreadedServer(int port, Parcheggio _parcheggio){
         serverPort = port;
         workerThreads = Executors.newFixedThreadPool(8);
+        parcheggio = _parcheggio;
     }
 
 
@@ -51,8 +53,8 @@ public class MultithreadedServer implements  Runnable{
             }
 
             try{
-                //Elaboro richiesta...
-                workerThreads.execute(new WorkerThread(clientSocket, "ThreadPooled Server") );
+                //Elaboro richiesta su parcheggio ...
+                workerThreads.execute(new WorkerThread(clientSocket, "ThreadPooled Server", parcheggio) );
             }
             catch (Exception e){
                 System.out.println("Weird exception... Still continuing!");
