@@ -22,8 +22,8 @@ public class WorkerThread implements Runnable {
     public void run() {
 
         try{
-            InputStream input   = clientSocket.getInputStream();
-            var requestString = Arrays.toString(input.readAllBytes());
+            BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            var requestString = in.readLine();  //lettura dell'unica linea
             gestisciRichiesta(requestString);
 
             OutputStream output = clientSocket.getOutputStream();
