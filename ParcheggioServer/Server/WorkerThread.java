@@ -25,14 +25,16 @@ public class WorkerThread implements Runnable {
 
 /*            OutputStream output = clientSocket.getOutputStream();
             output.write(("Richiesta processata!").getBytes());   //converstion chars2bits
-            output.close();*/
+            output.close();
+            */
             in.close();
 
             System.out.println("Request processed");
         }catch (IOException e){
-            System.out.println("Processo è terminato...");
+            System.out.println("Connessione scaduta");
         }
     }
+
 
     /*
     * [0] => TIPO, [1] => MARCA, [2] => TARGA, [3] => DATA/ORA
