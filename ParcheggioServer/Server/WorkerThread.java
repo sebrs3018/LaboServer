@@ -2,7 +2,6 @@ package Server;
 
 import java.io.*;
 import java.net.Socket;
-import java.util.Arrays;
 
 public class WorkerThread implements Runnable {
 
@@ -22,23 +21,23 @@ public class WorkerThread implements Runnable {
         try{
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             var requestString = in.readLine();  //lettura dell'unica linea
-            gestisciRichiesta(requestString);
+            handleRequest(requestString);
 
-            OutputStream output = clientSocket.getOutputStream();
+/*            OutputStream output = clientSocket.getOutputStream();
             output.write(("Richiesta processata!").getBytes());   //converstion chars2bits
-            output.close();
+            output.close();*/
             in.close();
 
             System.out.println("Request processed");
         }catch (IOException e){
-            e.printStackTrace();
+            System.out.println("Processo è terminato...");
         }
     }
 
     /*
     * [0] => TIPO, [1] => MARCA, [2] => TARGA, [3] => DATA/ORA
     */
-    private void gestisciRichiesta(String requestString){
+    private void handleRequest(String requestString){
         String[] parsedString = parseRequest(requestString);
 
         if(parsedString[0].equals("0")){
@@ -52,11 +51,8 @@ public class WorkerThread implements Runnable {
     /* Precondizione: marca, targa e data/ora non sono nulli */
     private String[] parseRequest(String requestString){
         String delimSpace = " ";
-        String[] tokenizedString  = requestString.split(delimSpace);
-        for (String uniqVal1 : tokenizedString) {
-            System.out.println("*" + uniqVal1 + "*");
-        }
-        return tokenizedString;
+        return requestString.split(delimSpace);
+
     }
 
 

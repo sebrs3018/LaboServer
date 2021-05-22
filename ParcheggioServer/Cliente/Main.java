@@ -10,7 +10,7 @@ public class Main {
 
         ExecutorService es = Executors.newFixedThreadPool(8);
 
-        for (int i = 0; i<100; i++){
+        for (int i = 0; i<10; i++){
             es.execute(c1);
             es.execute(c2);
             es.execute(c3);

@@ -41,20 +41,20 @@ public class Cliente implements Runnable {
 
     public void run(){
         for (int i = 0; i<NRO_RUN; i++){
-            System.out.println(" \t### entrata nel parcheggio " + targa + " | " + marca +" ### ");
+//            System.out.println(" \t### entrata nel parcheggio " + targa + " | " + marca +" ### ");
 
             /* Richiesta ingresso ... */
             enterParking();
 
             /* Simulazione sosta in parcheggio ...*/
             try {
-                System.out.println(" \t\t### sono nel parcheggio... " + targa + " | " + marca +" ### ");
+//                System.out.println(" \t\t### sono nel parcheggio... " + targa + " | " + marca +" ### ");
                 Thread.sleep ( 2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            System.out.println(" \t### sono uscito dal parcheggio... " + targa + " | " + marca +" ### ");
+//            System.out.println(" \t### sono uscito dal parcheggio... " + targa + " | " + marca +" ### ");
 
             /* Richiesta uscita ... */
             exitParking();
