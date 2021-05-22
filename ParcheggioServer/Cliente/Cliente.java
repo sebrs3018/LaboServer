@@ -66,19 +66,6 @@ public class Cliente implements Runnable {
 
     private Socket createSocket() throws IOException {
 
-        List<Integer> ports = IntStream.rangeClosed(49152, 65535)
-                    .boxed()
-                    .collect(toList());
-
-
-        for (int i = 49152; i <= 65535; i++) {
-            try {
-                return new Socket("localhost", i);
-            } catch (IOException ex) {
-                continue; // try next port
-            }
-        }
-
         // if the program gets here, no port in the range was found
         throw new IOException("no free port found");
     }
