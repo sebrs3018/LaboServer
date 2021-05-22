@@ -51,6 +51,7 @@ public class MultithreadedServer implements  Runnable{
             }
 
             try{
+                //Elaboro richiesta...
                 workerThreads.execute(new WorkerThread(clientSocket, "ThreadPooled Server") );
             }
             catch (Exception e){
