@@ -25,7 +25,6 @@ public class Cliente implements Runnable {
             InetAddress addr;
             clientSocket = new Socket("localhost", 9090);
             InputStream is = clientSocket.getInputStream();//non ci dovrebbe servire
-            os = clientSocket.getOutputStream();
 
             addr = clientSocket.getInetAddress();
             System.out.println("Connected to " + addr);
