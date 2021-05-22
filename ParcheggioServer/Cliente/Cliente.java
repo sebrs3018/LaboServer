@@ -16,7 +16,7 @@ public class Cliente implements Runnable {
     private final String targa;
     private final String marca;
     private Socket clientSocket;
-    private final static int NRO_RUN = 3;
+    private final static int NRO_RUN = 10;
 
 
 
@@ -94,7 +94,7 @@ public class Cliente implements Runnable {
     }
 
     private String initRequestString(String request){
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
         Date date = new Date();
         return request + marca + targa + formatter.format(date);
     }

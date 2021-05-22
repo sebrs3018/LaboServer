@@ -19,19 +19,33 @@ public class WorkerThread implements Runnable {
     public void run() {
 
         try{
-            BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            var requestString = in.readLine();  //lettura dell'unica linea
-            handleRequest(requestString);
+            DataInputStream in = new DataInputStream(new BufferedInputStream(clientSocket.getInputStream()));
+            int length = in.readInt();  //leggo la dimensione del messaggio
 
-/*            OutputStream output = clientSocket.getOutputStream();
-            output.write(("Richiesta processata!").getBytes());   //converstion chars2bits
-            output.close();
-            */
-            in.close();
+            byte[] messageByte = new byte[length];
+            boolean end = false;
+            StringBuilder dataString = new StringBuilder(length);
+            int totalBytesRead = 0;
+            while(!end) {
+                int currentBytesRead = in.read(messageByte);
+                totalBytesRead = currentBytesRead + totalBytesRead;
+                if(totalBytesRead <= length) {
+                    dataString
+                            .append(new String(messageByte, 0, currentBytesRead, StandardCharsets.UTF_8));
+                } else {
+                    dataString
+                            .append(new String(messageByte, 0, length - totalBytesRead + currentBytesRead,
+                                    StandardCharsets.UTF_8));
+                }
+                if(dataString.length()>=length) {
+                    end = true;
+                }
+            }
 
-            System.out.println("Request processed");
+            handleRequest(dataString.toString());
+
         }catch (IOException e){
-            System.out.println("Connessione scaduta");
+            System.out.println(e.getMessage());
         }
     }
 

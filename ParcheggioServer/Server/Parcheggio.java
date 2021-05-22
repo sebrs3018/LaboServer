@@ -2,15 +2,21 @@ package Server;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Parcheggio {
 
-    Map<String, String> Parcheggio = new ConcurrentHashMap<String, String>(); //struttura dati per tenere traccia delle targhe e modelli
+    Map<String, ClientInfo> Parcheggio = new ConcurrentHashMap<String, ClientInfo>(); //struttura dati per tenere traccia delle targhe e modelli
 
     // costruttore per inizializzare le istanze (es. con il numero di posti totale)
     public Parcheggio(int _nroPostiLiberi){
