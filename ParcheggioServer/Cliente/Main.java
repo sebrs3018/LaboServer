@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        try {
+//        try {
         Cliente c1 = new Cliente("a1","Volvo1");
         Cliente c2 = new Cliente("a2","Volvo2");
         Cliente c3 = new Cliente("a3","Volvo3");
@@ -18,15 +18,22 @@ public class Main {
 
         ExecutorService es = Executors.newFixedThreadPool(8);
 
-        for (int i = 0; i<10; i++){
+        for (int i = 0; i<5; i++){
             es.execute(c1);
             es.execute(c2);
             es.execute(c3);
+            es.execute(c4);
+            es.execute(c5);
+            es.execute(c6);
+            es.execute(c7);
+            es.execute(c8);
         }
 
+/*
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+*/
 
 
     }

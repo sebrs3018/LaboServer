@@ -16,14 +16,30 @@ public class Main {
 
         new Thread(new MultithreadedServer(8080, parcheggio)).start();
 
-        TimerTask timerTask = new TimerTask() {
+        CompletableFuture.runAsync(() -> {
+            for(int i = 0; i<100; i++){
+                try {
+                    TimeUnit.MILLISECONDS.sleep(500);
+                    parcheggio.saveLog("Log.txt");   //è tempo di chiusura
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+
+
+/*        TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
                 if(counter <= 10)
                     parcheggio.saveLog("Log.txt");   //è tempo di chiusura
                 counter++;
             }
-        };
+        };*/
+ /*       timer = new Timer("MyTimer");//create a new Timer
+        timer.schedule(timerTask, 0, 500);//this line starts the timer at the same time its executed
+*/
 
         try{
             Thread.sleep(20*1000);
@@ -32,7 +48,6 @@ public class Main {
         }
 
 
-        timer = new Timer("MyTimer");//create a new Timer
-        timer.schedule(timerTask, 0, 2000);//this line starts the timer at the same time its executed
+
     }
 }

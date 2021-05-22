@@ -11,6 +11,7 @@ public class WorkerThread implements Runnable {
     protected Socket clientSocket;
     protected String serverName;
     protected Parcheggio parcheggio;
+    private boolean LastRequest = false;
 
     public WorkerThread(Socket _clientSocket, String _serverName, Parcheggio _parcheggio){
         clientSocket = _clientSocket;
@@ -21,7 +22,7 @@ public class WorkerThread implements Runnable {
     @Override
     public void run() {
 
-        try{
+/*        try{
             DataInputStream in = new DataInputStream(new BufferedInputStream(clientSocket.getInputStream()));
             int length = in.readInt();  //leggo la dimensione del messaggio
 
@@ -29,6 +30,7 @@ public class WorkerThread implements Runnable {
             boolean end = false;
             StringBuilder dataString = new StringBuilder(length);
             int totalBytesRead = 0;
+
             while(!end) {
                 int currentBytesRead = in.read(messageByte);
                 totalBytesRead = currentBytesRead + totalBytesRead;
@@ -44,9 +46,19 @@ public class WorkerThread implements Runnable {
                     end = true;
                 }
             }
-
             handleRequest(dataString.toString());
+            */
 
+        /* TODO: verificare corretta stampa e concorrenza*/
+        try(InputStream input = clientSocket.getInputStream()){
+                while(!LastRequest){
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+                    String requestString = reader.readLine();   //rimane in attesa di avere un riga da leggere
+                    if(requestString != null){
+                        handleRequest(requestString);
+                        System.out.println("Request processed: " + requestString);
+                    }
+                }
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
@@ -59,10 +71,10 @@ public class WorkerThread implements Runnable {
     private void handleRequest(String requestString){
         String[] parsedString = parseRequest(requestString);
 
-        for (var val : parsedString){
+/*        for (var val : parsedString){
             System.out.print(val + " ");
         }
-        System.out.println("\n");
+        System.out.println("\n");*/
 
         if(parsedString[0].equals("0")){
             var timeToPass = LocalTime.parse( parsedString[3] ) ;
@@ -70,7 +82,11 @@ public class WorkerThread implements Runnable {
         }
         else if (parsedString[0].equals("1")){
             parcheggio.Uscita(parsedString[2]);
+            LastRequest = true;
         }
+
+
+
     }
 
     /* Precondizione: marca, targa e data/ora non sono nulli */
