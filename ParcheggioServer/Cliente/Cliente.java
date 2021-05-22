@@ -1,9 +1,11 @@
 package Cliente;
+
 import java.io.*;
 import java.lang.Runnable;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -13,92 +15,77 @@ import static java.util.stream.Collectors.toList;
 
 public class Cliente implements Runnable {
 
-    private final String targa;
-    private final String marca;
+    private String targa;
+    private String marca;
     private Socket clientSocket;
     private final static int NRO_RUN = 10;
 
 
-
-    public Cliente(String _targa, String _marca){
+    public Cliente(String _targa, String _marca) throws IOException{
         targa = _targa;
         marca = _marca;
-         try {
-            InetAddress addr;
-            clientSocket = new Socket("localhost", 8080);
-            InputStream is = clientSocket.getInputStream();//non ci dovrebbe servire
 
-            addr = clientSocket.getInetAddress();
-            System.out.println("Connected to " + addr);
+        InetAddress addr;
+        clientSocket = new Socket("localhost", 8080);
+        InputStream is = clientSocket.getInputStream();//non ci dovrebbe servire
+        addr = clientSocket.getInetAddress();
+        System.out.println("Connected to " + addr);
 
-
-
-         } catch (IOException e) {
-            System.out.println("Can't connect to localhost");
-            System.out.println(e);
-        }
     }
 
     public void run(){
-        for (int i = 0; i<NRO_RUN; i++){
-//            System.out.println(" \t### entrata nel parcheggio " + targa + " | " + marca +" ### ");
 
+        for (int i = 0; i<NRO_RUN; i++){
             /* Richiesta ingresso ... */
             enterParking();
-
+            System.out.println("Sono entrato!");
             /* Simulazione sosta in parcheggio ...*/
             try {
-//                System.out.println(" \t\t### sono nel parcheggio... " + targa + " | " + marca +" ### ");
                 Thread.sleep ( 2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
-//            System.out.println(" \t### sono uscito dal parcheggio... " + targa + " | " + marca +" ### ");
-
             /* Richiesta uscita ... */
             exitParking();
 
         }
     }
 
-    private Socket createSocket() throws IOException {
 
-        // if the program gets here, no port in the range was found
-        throw new IOException("no free port found");
-    }
-
-
-
-
-    private void enterParking(){
+    private synchronized void enterParking(){
         String requestString = initRequestString("0");
-        PrintWriter out = null;
+        var dataBytes = requestString.getBytes(StandardCharsets.UTF_8);
+
+        DataOutputStream out = null;
         try {
-            out = new PrintWriter(clientSocket.getOutputStream(), true);
+            out = new DataOutputStream(clientSocket.getOutputStream());
+            out.writeInt(dataBytes.length); //dimensione del messaggio
+            out.write(dataBytes);           //payload
         } catch (IOException e) {
             e.printStackTrace();
         }
-        out.write(requestString);
+
     }
 
-    private void exitParking(){
+    private synchronized void exitParking(){
         String requestString = initRequestString("1");
-        PrintWriter out = null;
+        var dataBytes = requestString.getBytes(StandardCharsets.UTF_8);
+
+        DataOutputStream out = null;
         try {
-            out = new PrintWriter(clientSocket.getOutputStream(), true);
+            out = new DataOutputStream(clientSocket.getOutputStream());
+            out.writeInt(dataBytes.length); //dimensione del messaggio
+            out.write(dataBytes);           //payload
         } catch (IOException e) {
             e.printStackTrace();
         }
-        out.write(requestString);
     }
 
     private String initRequestString(String request){
         SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
         Date date = new Date();
-        return request + marca + targa + formatter.format(date);
+        return request + " " + marca + " " + targa + " " + formatter.format(date);
     }
-
 
 
 }

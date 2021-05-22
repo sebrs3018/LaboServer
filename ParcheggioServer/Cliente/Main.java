@@ -23,5 +23,11 @@ public class Main {
             es.execute(c2);
             es.execute(c3);
         }
+
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
+
     }
 }

@@ -39,9 +39,8 @@ public class MultithreadedServer implements  Runnable{
         while(!isStopped){
             Socket clientSocket = null;
 
-
             try{
-                System.out.println("Waiting....");
+                System.out.println("In attesa che qualcuno si colleghi ....");
                 clientSocket = serverSocket.accept();   //questo metodo è bloccante finchè non arriva una connessione
             } catch (IOException e) {
 
@@ -57,14 +56,11 @@ public class MultithreadedServer implements  Runnable{
                 workerThreads.execute(new WorkerThread(clientSocket, "ThreadPooled Server", parcheggio) );
             }
             catch (Exception e){
-                System.out.println("Weird exception... Still continuing!");
+                System.out.println(e.getMessage());
             }
 
         }
-
-
     }
-
 
 
     private boolean isStopped() {

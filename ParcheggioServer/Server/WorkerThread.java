@@ -2,6 +2,9 @@ package Server;
 
 import java.io.*;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.time.LocalTime;
+import java.util.Arrays;
 
 public class WorkerThread implements Runnable {
 
@@ -51,16 +54,22 @@ public class WorkerThread implements Runnable {
 
 
     /*
-    * [0] => TIPO, [1] => MARCA, [2] => TARGA, [3] => DATA/ORA
+    * [0] => TIPO, [1] => MARCA, [2] => TARGA, [3] => ORA
     */
     private void handleRequest(String requestString){
         String[] parsedString = parseRequest(requestString);
 
-        if(parsedString[0].equals("0")){
-            parcheggio.Entrata(parsedString[2], parsedString[1]);
+        for (var val : parsedString){
+            System.out.print(val + " ");
         }
-        else{
-            parcheggio.Uscita(parsedString[1]);
+        System.out.println("\n");
+
+        if(parsedString[0].equals("0")){
+            var timeToPass = LocalTime.parse( parsedString[3] ) ;
+            parcheggio.Entrata(parsedString[2], parsedString[1], timeToPass);
+        }
+        else if (parsedString[0].equals("1")){
+            parcheggio.Uscita(parsedString[2]);
         }
     }
 
