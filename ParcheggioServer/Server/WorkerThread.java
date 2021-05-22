@@ -1,8 +1,6 @@
 package Server;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.Socket;
 import java.util.Arrays;
 
@@ -29,7 +27,7 @@ public class WorkerThread implements Runnable {
             OutputStream output = clientSocket.getOutputStream();
             output.write(("Richiesta processata!").getBytes());   //converstion chars2bits
             output.close();
-            input.close();
+            in.close();
 
             System.out.println("Request processed");
         }catch (IOException e){

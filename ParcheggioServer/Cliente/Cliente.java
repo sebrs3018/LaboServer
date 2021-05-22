@@ -31,7 +31,7 @@ public class Cliente implements Runnable {
             addr = clientSocket.getInetAddress();
             System.out.println("Connected to " + addr);
 
-             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+
 
          } catch (IOException e) {
             System.out.println("Can't connect to localhost");
