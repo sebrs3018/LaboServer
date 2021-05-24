@@ -40,10 +40,10 @@ public class Cliente implements Runnable {
                     System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare enter parking");
                     enterParking(socket);
                     System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Enter parking inviata, inizio sosta");
-                    /* Simulazione sosta in parcheggio; da 1 a 10 secondi di sosta...*/
+                    /* Simulazione sosta in parcheggio; da 1 a 5 secondi di sosta...*/
                     try {
                         int r = new Random().nextInt(10);
-                        Thread.sleep(((r == 0) ? (1 + r) : r) * 1000);
+                        Thread.sleep(((r == 0) ? (1 + r) : r) * 500);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

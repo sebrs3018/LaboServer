@@ -20,7 +20,7 @@ public class Main {
             parcheggio.clearLog("Log.txt");
             for(int i = 0; i<1000; i++){
                 try {
-                    TimeUnit.MILLISECONDS.sleep(500);
+                    TimeUnit.MILLISECONDS.sleep(1000);
                     parcheggio.saveLog("Log.txt");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -29,11 +29,11 @@ public class Main {
         });
 
 
-        try{
-            Thread.sleep(20*1000);
-        } catch (InterruptedException e){
-            e.printStackTrace();
-        }
+       // try{
+       //     Thread.sleep(20*1000);
+       // } catch (InterruptedException e){
+       //     e.printStackTrace();
+       // }
 
 
 
