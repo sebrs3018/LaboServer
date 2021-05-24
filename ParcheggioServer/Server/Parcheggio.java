@@ -17,16 +17,15 @@ public class Parcheggio {
 
     Map<String, ClientInfo> Parcheggio = new ConcurrentHashMap<>(); //struttura dati per tenere traccia delle targhe e modelli
     private boolean isOutOfParking = false;
-
+    private boolean firstEntry = false;
 
     /*
-
-    un metodo “ENTRATA(MARCA,TARGA)” per richiedere l’ingresso dall’unica via di accesso
-    e memorizzare i dati dell’auto quando viene posteggiata. Il metodo deve essere
-    bloccante quando i posti sono tuZ occupati.
-
-    */
+        un metodo “ENTRATA(MARCA,TARGA)” per richiedere l’ingresso dall’unica via di accesso
+        e memorizzare i dati dell’auto quando viene posteggiata. Il metodo deve essere
+        bloccante quando i posti sono tuZ occupati.
+        */
     public void Entrata(String Targa, String Marca, LocalTime oraRichiesta){
+        firstEntry = true;
 
         /* La putIfAbsent mi garantisce un inserimento sincronizzato */
         long tempoGestione = ChronoUnit.MILLIS.between(oraRichiesta, LocalTime.now());
@@ -36,10 +35,8 @@ public class Parcheggio {
     //un metodo “USCITA(TARGA)” per notificare l’uscita dal parcheggio. Il metodo non è
     //bloccante.
     public void Uscita(String targa){
-//        System.out.println("- Rimuovo: " + targa);
         Parcheggio.remove(targa);
         setOutOfParking(true);
-//        System.out.println("\t- Fuori dal parcheggio: " + targa + "\n numero macchine rimanenti: " + Parcheggio.size());
     }
 
     /*
@@ -47,14 +44,16 @@ public class Parcheggio {
     attualmente parcheggiate.
     */
     public void saveLog(String filename){
+
+        if(!firstEntry) //inizio a stampare appena entra qualcuno
+            return;
+
         try {
             FileWriter myWriter = new FileWriter(filename, true);
-            Set<Map.Entry<String, ClientInfo>> entry =  Parcheggio.entrySet();
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
             LocalDateTime now = LocalDateTime.now();
             myWriter.write("["+ dtf.format(now) + "]\n");
 
-            System.out.println("\t\tnumero utenti in parcheggio: " + Parcheggio.size());
             Iterator<Map.Entry<String, ClientInfo>> it = Parcheggio.entrySet().iterator();
             while (it.hasNext()) {
                 Map.Entry pair = it.next();
@@ -83,9 +82,6 @@ public class Parcheggio {
         writer.close();
     }
 
-    public synchronized boolean isOutOfParking() {
-        return isOutOfParking;
-    }
 
     public synchronized void setOutOfParking(boolean outOfParking) {
         isOutOfParking = outOfParking;

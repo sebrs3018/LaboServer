@@ -1,664 +1,385 @@
-[24/05/2021 19:37:16]
-[24/05/2021 19:37:17]
-[24/05/2021 19:37:17]
-[24/05/2021 19:37:18]
-[24/05/2021 19:37:18]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 149ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 149ms
-[24/05/2021 19:37:19]
-[24/05/2021 19:37:19]
-[24/05/2021 19:37:20]
-[24/05/2021 19:37:20]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 2173ms
-[24/05/2021 19:37:21]
-[24/05/2021 19:37:21]
-[24/05/2021 19:37:22]
-[24/05/2021 19:37:22]
-[24/05/2021 19:37:23]
-[24/05/2021 19:37:23]
-[24/05/2021 19:37:24]
-[24/05/2021 19:37:24]
-[24/05/2021 19:37:25]
-[24/05/2021 19:37:25]
-[24/05/2021 19:37:26]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 8186ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 8171ms
-[24/05/2021 19:37:26]
-[24/05/2021 19:37:27]
-[24/05/2021 19:37:27]
-[24/05/2021 19:37:28]
-[24/05/2021 19:37:28]
-[24/05/2021 19:37:29]
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 11185ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 11201ms
-[24/05/2021 19:37:29]
-[24/05/2021 19:37:30]
-[24/05/2021 19:37:30]
-[24/05/2021 19:37:31]
-[24/05/2021 19:37:31]
-[24/05/2021 19:37:32]
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 14195ms
-[24/05/2021 19:37:32]
-[24/05/2021 19:37:33]
-[24/05/2021 19:37:33]
-[24/05/2021 19:37:34]
-[24/05/2021 19:37:34]
-[24/05/2021 19:37:35]
-[24/05/2021 19:37:35]
-[24/05/2021 19:37:36]
-[24/05/2021 19:37:36]
-[24/05/2021 19:37:37]
-[24/05/2021 19:37:38]
-[24/05/2021 19:37:38]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 12206ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 18206ms
-[24/05/2021 19:37:39]
-[24/05/2021 19:37:39]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 13219ms
-[24/05/2021 19:37:40]
-[24/05/2021 19:37:40]
-[24/05/2021 19:37:41]
-[24/05/2021 19:37:41]
-[24/05/2021 19:37:42]
-[24/05/2021 19:37:42]
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 13212ms
-[24/05/2021 19:37:43]
-[24/05/2021 19:37:43]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 14223ms
-[24/05/2021 19:37:44]
-[24/05/2021 19:37:44]
-[24/05/2021 19:37:45]
-[24/05/2021 19:37:45]
-[24/05/2021 19:37:46]
-[24/05/2021 19:37:46]
-[24/05/2021 19:37:47]
-[24/05/2021 19:37:47]
-[24/05/2021 19:37:48]
-[24/05/2021 19:37:48]
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 16234ms
-[24/05/2021 19:37:49]
-[24/05/2021 19:37:49]
-[24/05/2021 19:37:50]
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 12235ms
-[24/05/2021 19:37:50]
-[24/05/2021 19:37:51]
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 13249ms
-[24/05/2021 19:37:51]
-[24/05/2021 19:37:52]
-[24/05/2021 19:37:52]
-[24/05/2021 19:37:53]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 14237ms
-[24/05/2021 19:37:53]
-[24/05/2021 19:37:54]
-[24/05/2021 19:37:54]
-[24/05/2021 19:37:55]
-[24/05/2021 19:37:55]
-[24/05/2021 19:37:56]
-[24/05/2021 19:37:56]
-[24/05/2021 19:37:57]
-[24/05/2021 19:37:57]
-[24/05/2021 19:37:58]
-[24/05/2021 19:37:58]
-[24/05/2021 19:37:59]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 17255ms
-[24/05/2021 19:37:59]
-[24/05/2021 19:38:00]
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 17262ms
-[24/05/2021 19:38:01]
-[24/05/2021 19:38:01]
-[24/05/2021 19:38:02]
-[24/05/2021 19:38:02]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 14254ms
-[24/05/2021 19:38:03]
-[24/05/2021 19:38:03]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 13271ms
-[24/05/2021 19:38:04]
-[24/05/2021 19:38:04]
-[24/05/2021 19:38:05]
-[24/05/2021 19:38:05]
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 14282ms
-[24/05/2021 19:38:06]
-[24/05/2021 19:38:06]
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 13288ms
-[24/05/2021 19:38:07]
-[24/05/2021 19:38:07]
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 8267ms
-[24/05/2021 19:38:08]
-[24/05/2021 19:38:08]
-[24/05/2021 19:38:09]
-[24/05/2021 19:38:09]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 9282ms
-[24/05/2021 19:38:10]
-[24/05/2021 19:38:10]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 8295ms
-[24/05/2021 19:38:11]
-[24/05/2021 19:38:11]
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 8298ms
-[24/05/2021 19:38:12]
-[24/05/2021 19:38:12]
-[24/05/2021 19:38:13]
-[24/05/2021 19:38:13]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 8286ms
-[24/05/2021 19:38:14]
-[24/05/2021 19:38:14]
-[24/05/2021 19:38:15]
-[24/05/2021 19:38:15]
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 9292ms
-[24/05/2021 19:38:16]
-[24/05/2021 19:38:16]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 9307ms
-[24/05/2021 19:38:17]
-[24/05/2021 19:38:17]
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 8324ms
-[24/05/2021 19:38:18]
-[24/05/2021 19:38:18]
-[24/05/2021 19:38:19]
-[24/05/2021 19:38:19]
-[24/05/2021 19:38:20]
-[24/05/2021 19:38:20]
-[24/05/2021 19:38:21]
-[24/05/2021 19:38:21]
-[24/05/2021 19:38:22]
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 12332ms
-[24/05/2021 19:38:22]
-[24/05/2021 19:38:23]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 10344ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 12298ms
-[24/05/2021 19:38:23]
-[24/05/2021 19:38:24]
-[24/05/2021 19:38:25]
-[24/05/2021 19:38:25]
-[24/05/2021 19:38:26]
-[24/05/2021 19:38:26]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 11302ms
-[24/05/2021 19:38:27]
-[24/05/2021 19:38:27]
-[24/05/2021 19:38:28]
-[24/05/2021 19:38:28]
-[24/05/2021 19:38:29]
-[24/05/2021 19:38:29]
-[24/05/2021 19:38:30]
-[24/05/2021 19:38:30]
-[24/05/2021 19:38:31]
-[24/05/2021 19:38:31]
-[24/05/2021 19:38:32]
-[24/05/2021 19:38:32]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 15347ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 16316ms
-[24/05/2021 19:38:33]
-[24/05/2021 19:38:33]
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 11362ms
-[24/05/2021 19:38:34]
-[24/05/2021 19:38:34]
-[24/05/2021 19:38:35]
-[24/05/2021 19:38:35]
-[24/05/2021 19:38:36]
-[24/05/2021 19:38:36]
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 13365ms
-[24/05/2021 19:38:37]
-[24/05/2021 19:38:37]
-[24/05/2021 19:38:38]
-[24/05/2021 19:38:38]
-[24/05/2021 19:38:39]
-[24/05/2021 19:38:39]
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 16374ms
-[24/05/2021 19:38:40]
-[24/05/2021 19:38:40]
-[24/05/2021 19:38:41]
-[24/05/2021 19:38:41]
-[24/05/2021 19:38:42]
-[24/05/2021 19:38:42]
-[24/05/2021 19:38:43]
-[24/05/2021 19:38:43]
-[24/05/2021 19:38:44]
-[24/05/2021 19:38:44]
-[24/05/2021 19:38:45]
-[24/05/2021 19:38:45]
-[24/05/2021 19:38:46]
-[24/05/2021 19:38:46]
-[24/05/2021 19:38:47]
-[24/05/2021 19:38:47]
-[24/05/2021 19:38:48]
-[24/05/2021 19:38:48]
-[24/05/2021 19:38:49]
-[24/05/2021 19:38:49]
-[24/05/2021 19:38:50]
-[24/05/2021 19:38:50]
-[24/05/2021 19:38:51]
-[24/05/2021 19:38:52]
-[24/05/2021 19:38:52]
-[24/05/2021 19:38:53]
-[24/05/2021 19:38:53]
-[24/05/2021 19:38:54]
-[24/05/2021 19:38:54]
-[24/05/2021 19:38:55]
-[24/05/2021 19:38:55]
-[24/05/2021 19:38:56]
-[24/05/2021 19:38:56]
-[24/05/2021 19:38:57]
-[24/05/2021 19:38:57]
-[24/05/2021 19:38:58]
-[24/05/2021 19:38:58]
-[24/05/2021 19:38:59]
-[24/05/2021 19:38:59]
-[24/05/2021 19:39:00]
-[24/05/2021 19:39:00]
-[24/05/2021 19:39:01]
-[24/05/2021 19:39:01]
-[24/05/2021 19:39:02]
-[24/05/2021 19:39:02]
-[24/05/2021 19:39:03]
-[24/05/2021 19:39:03]
-[24/05/2021 19:39:04]
-[24/05/2021 19:39:04]
-[24/05/2021 19:39:05]
-[24/05/2021 19:39:05]
-[24/05/2021 19:39:06]
-[24/05/2021 19:39:06]
-[24/05/2021 19:39:07]
-[24/05/2021 19:39:07]
-[24/05/2021 19:39:08]
-[24/05/2021 19:39:08]
-[24/05/2021 19:39:09]
-[24/05/2021 19:39:09]
-[24/05/2021 19:39:10]
-[24/05/2021 19:39:10]
-[24/05/2021 19:39:11]
-[24/05/2021 19:39:11]
-[24/05/2021 19:39:12]
-[24/05/2021 19:39:12]
-[24/05/2021 19:39:13]
-[24/05/2021 19:39:13]
-[24/05/2021 19:39:14]
-[24/05/2021 19:39:14]
-[24/05/2021 19:39:15]
-[24/05/2021 19:39:15]
-[24/05/2021 19:39:16]
-[24/05/2021 19:39:16]
-[24/05/2021 19:39:17]
-[24/05/2021 19:39:17]
-[24/05/2021 19:39:18]
-[24/05/2021 19:39:18]
-[24/05/2021 19:39:19]
-[24/05/2021 19:39:20]
-[24/05/2021 19:39:20]
-[24/05/2021 19:39:21]
-[24/05/2021 19:39:21]
-[24/05/2021 19:39:22]
-[24/05/2021 19:39:22]
-[24/05/2021 19:39:23]
-[24/05/2021 19:39:23]
-[24/05/2021 19:39:24]
-[24/05/2021 19:39:24]
-[24/05/2021 19:39:25]
-[24/05/2021 19:39:25]
-[24/05/2021 19:39:26]
-[24/05/2021 19:39:26]
-[24/05/2021 19:39:27]
-[24/05/2021 19:39:27]
-[24/05/2021 19:39:28]
-[24/05/2021 19:39:28]
-[24/05/2021 19:39:29]
-[24/05/2021 19:39:29]
-[24/05/2021 19:39:30]
-[24/05/2021 19:39:30]
-[24/05/2021 19:39:31]
-[24/05/2021 19:39:31]
-[24/05/2021 19:39:32]
-[24/05/2021 19:39:32]
-[24/05/2021 19:39:33]
-[24/05/2021 19:39:33]
-[24/05/2021 19:39:34]
-[24/05/2021 19:39:34]
-[24/05/2021 19:39:35]
-[24/05/2021 19:39:35]
-[24/05/2021 19:39:36]
-[24/05/2021 19:39:36]
-[24/05/2021 19:39:37]
-[24/05/2021 19:39:37]
-[24/05/2021 19:39:38]
-[24/05/2021 19:39:38]
-[24/05/2021 19:39:39]
-[24/05/2021 19:39:39]
-[24/05/2021 19:39:40]
-[24/05/2021 19:39:40]
-[24/05/2021 19:39:41]
-[24/05/2021 19:39:41]
-[24/05/2021 19:39:42]
-[24/05/2021 19:39:43]
-[24/05/2021 19:39:43]
-[24/05/2021 19:39:44]
-[24/05/2021 19:39:44]
-[24/05/2021 19:39:45]
-[24/05/2021 19:39:45]
-[24/05/2021 19:39:46]
-[24/05/2021 19:39:46]
-[24/05/2021 19:39:47]
-[24/05/2021 19:39:47]
-[24/05/2021 19:39:48]
-[24/05/2021 19:39:48]
-[24/05/2021 19:39:49]
-[24/05/2021 19:39:49]
-[24/05/2021 19:39:50]
-[24/05/2021 19:39:50]
-[24/05/2021 19:39:51]
-[24/05/2021 19:39:51]
-[24/05/2021 19:39:52]
-[24/05/2021 19:39:52]
-[24/05/2021 19:39:53]
-[24/05/2021 19:39:53]
-[24/05/2021 19:39:54]
-[24/05/2021 19:39:54]
-[24/05/2021 19:39:55]
-[24/05/2021 19:39:55]
-[24/05/2021 19:39:56]
-[24/05/2021 19:39:56]
-[24/05/2021 19:39:57]
-[24/05/2021 19:39:57]
-[24/05/2021 19:39:58]
-[24/05/2021 19:39:58]
-[24/05/2021 19:39:59]
-[24/05/2021 19:39:59]
-[24/05/2021 19:40:00]
-[24/05/2021 19:40:00]
-[24/05/2021 19:40:01]
-[24/05/2021 19:40:01]
-[24/05/2021 19:40:02]
-[24/05/2021 19:40:02]
-[24/05/2021 19:40:03]
-[24/05/2021 19:40:04]
-[24/05/2021 19:40:04]
-[24/05/2021 19:40:05]
-[24/05/2021 19:40:05]
-[24/05/2021 19:40:06]
-[24/05/2021 19:40:06]
-[24/05/2021 19:40:07]
-[24/05/2021 19:40:07]
-[24/05/2021 19:40:08]
-[24/05/2021 19:40:08]
-[24/05/2021 19:40:09]
-[24/05/2021 19:40:09]
-[24/05/2021 19:40:10]
-[24/05/2021 19:40:10]
-[24/05/2021 19:40:11]
-[24/05/2021 19:40:11]
-[24/05/2021 19:40:12]
-[24/05/2021 19:40:12]
-[24/05/2021 19:40:13]
-[24/05/2021 19:40:13]
-[24/05/2021 19:40:14]
-[24/05/2021 19:40:14]
-[24/05/2021 19:40:15]
-[24/05/2021 19:40:15]
-[24/05/2021 19:40:16]
-[24/05/2021 19:40:16]
-[24/05/2021 19:40:17]
-[24/05/2021 19:40:17]
-[24/05/2021 19:40:18]
-[24/05/2021 19:40:18]
-[24/05/2021 19:40:19]
-[24/05/2021 19:40:19]
-[24/05/2021 19:40:20]
-[24/05/2021 19:40:20]
-[24/05/2021 19:40:21]
-[24/05/2021 19:40:21]
-[24/05/2021 19:40:22]
-[24/05/2021 19:40:22]
-[24/05/2021 19:40:23]
-[24/05/2021 19:40:23]
-[24/05/2021 19:40:24]
-[24/05/2021 19:40:24]
-[24/05/2021 19:40:25]
-[24/05/2021 19:40:25]
-[24/05/2021 19:40:26]
-[24/05/2021 19:40:26]
-[24/05/2021 19:40:27]
-[24/05/2021 19:40:27]
-[24/05/2021 19:40:28]
-[24/05/2021 19:40:28]
-[24/05/2021 19:40:29]
-[24/05/2021 19:40:30]
-[24/05/2021 19:40:30]
-[24/05/2021 19:40:31]
-[24/05/2021 19:40:31]
-[24/05/2021 19:40:32]
-[24/05/2021 19:40:32]
-[24/05/2021 19:40:33]
-[24/05/2021 19:40:33]
-[24/05/2021 19:40:34]
-[24/05/2021 19:40:34]
-[24/05/2021 19:40:35]
-[24/05/2021 19:40:35]
-[24/05/2021 19:40:36]
-[24/05/2021 19:40:36]
-[24/05/2021 19:40:37]
-[24/05/2021 19:40:37]
-[24/05/2021 19:40:38]
-[24/05/2021 19:40:38]
-[24/05/2021 19:40:39]
-[24/05/2021 19:40:39]
-[24/05/2021 19:40:40]
-[24/05/2021 19:40:40]
-[24/05/2021 19:40:41]
-[24/05/2021 19:40:41]
-[24/05/2021 19:40:42]
-[24/05/2021 19:40:42]
-[24/05/2021 19:40:43]
-[24/05/2021 19:40:43]
-[24/05/2021 19:40:44]
-[24/05/2021 19:40:44]
-[24/05/2021 19:40:45]
-[24/05/2021 19:40:45]
-[24/05/2021 19:40:46]
-[24/05/2021 19:40:46]
-[24/05/2021 19:40:47]
-[24/05/2021 19:40:47]
-[24/05/2021 19:40:48]
-[24/05/2021 19:40:48]
-[24/05/2021 19:40:49]
-[24/05/2021 19:40:49]
-[24/05/2021 19:40:50]
-[24/05/2021 19:40:50]
-[24/05/2021 19:40:51]
-[24/05/2021 19:40:51]
-[24/05/2021 19:40:52]
-[24/05/2021 19:40:52]
-[24/05/2021 19:40:53]
-[24/05/2021 19:40:53]
-[24/05/2021 19:40:54]
-[24/05/2021 19:40:55]
-[24/05/2021 19:40:55]
-[24/05/2021 19:40:56]
-[24/05/2021 19:40:56]
-[24/05/2021 19:40:57]
-[24/05/2021 19:40:57]
-[24/05/2021 19:40:58]
-[24/05/2021 19:40:58]
-[24/05/2021 19:40:59]
-[24/05/2021 19:40:59]
-[24/05/2021 19:41:00]
-[24/05/2021 19:41:00]
-[24/05/2021 19:41:01]
-[24/05/2021 19:41:01]
-[24/05/2021 19:41:02]
-[24/05/2021 19:41:02]
-[24/05/2021 19:41:03]
-[24/05/2021 19:41:03]
-[24/05/2021 19:41:04]
-[24/05/2021 19:41:04]
-[24/05/2021 19:41:05]
-[24/05/2021 19:41:05]
-[24/05/2021 19:41:06]
-[24/05/2021 19:41:06]
-[24/05/2021 19:41:07]
-[24/05/2021 19:41:07]
-[24/05/2021 19:41:08]
-[24/05/2021 19:41:08]
-[24/05/2021 19:41:09]
-[24/05/2021 19:41:09]
-[24/05/2021 19:41:10]
-[24/05/2021 19:41:10]
-[24/05/2021 19:41:11]
-[24/05/2021 19:41:11]
-[24/05/2021 19:41:12]
-[24/05/2021 19:41:12]
-[24/05/2021 19:41:13]
-[24/05/2021 19:41:13]
-[24/05/2021 19:41:14]
-[24/05/2021 19:41:14]
-[24/05/2021 19:41:15]
-[24/05/2021 19:41:15]
-[24/05/2021 19:41:16]
-[24/05/2021 19:41:16]
-[24/05/2021 19:41:17]
-[24/05/2021 19:41:17]
-[24/05/2021 19:41:18]
-[24/05/2021 19:41:18]
-[24/05/2021 19:41:19]
-[24/05/2021 19:41:19]
-[24/05/2021 19:41:20]
-[24/05/2021 19:41:21]
-[24/05/2021 19:41:21]
-[24/05/2021 19:41:22]
-[24/05/2021 19:41:22]
-[24/05/2021 19:41:23]
-[24/05/2021 19:41:23]
-[24/05/2021 19:41:24]
-[24/05/2021 19:41:24]
-[24/05/2021 19:41:25]
-[24/05/2021 19:41:25]
-[24/05/2021 19:41:26]
-[24/05/2021 19:41:26]
-[24/05/2021 19:41:27]
-[24/05/2021 19:41:27]
-[24/05/2021 19:41:28]
-[24/05/2021 19:41:28]
-[24/05/2021 19:41:29]
-[24/05/2021 19:41:29]
-[24/05/2021 19:41:30]
-[24/05/2021 19:41:30]
-[24/05/2021 19:41:31]
-[24/05/2021 19:41:31]
-[24/05/2021 19:41:32]
-[24/05/2021 19:41:32]
-[24/05/2021 19:41:33]
-[24/05/2021 19:41:33]
-[24/05/2021 19:41:34]
-[24/05/2021 19:41:34]
-[24/05/2021 19:41:35]
-[24/05/2021 19:41:35]
-[24/05/2021 19:41:36]
-[24/05/2021 19:41:36]
-[24/05/2021 19:41:37]
-[24/05/2021 19:41:37]
-[24/05/2021 19:41:38]
-[24/05/2021 19:41:38]
-[24/05/2021 19:41:39]
-[24/05/2021 19:41:39]
-[24/05/2021 19:41:40]
-[24/05/2021 19:41:40]
-[24/05/2021 19:41:41]
-[24/05/2021 19:41:41]
-[24/05/2021 19:41:42]
-[24/05/2021 19:41:42]
-[24/05/2021 19:41:43]
-[24/05/2021 19:41:43]
-[24/05/2021 19:41:44]
-[24/05/2021 19:41:45]
-[24/05/2021 19:41:45]
-[24/05/2021 19:41:46]
-[24/05/2021 19:41:46]
-[24/05/2021 19:41:47]
-[24/05/2021 19:41:47]
-[24/05/2021 19:41:48]
-[24/05/2021 19:41:48]
-[24/05/2021 19:41:49]
-[24/05/2021 19:41:49]
-[24/05/2021 19:41:50]
-[24/05/2021 19:41:50]
-[24/05/2021 19:41:51]
-[24/05/2021 19:41:51]
-[24/05/2021 19:41:52]
-[24/05/2021 19:41:52]
-[24/05/2021 19:41:53]
-[24/05/2021 19:41:53]
-[24/05/2021 19:41:54]
-[24/05/2021 19:41:54]
-[24/05/2021 19:41:55]
-[24/05/2021 19:41:55]
-[24/05/2021 19:41:56]
-[24/05/2021 19:41:56]
-[24/05/2021 19:41:57]
-[24/05/2021 19:41:57]
-[24/05/2021 19:41:58]
-[24/05/2021 19:41:58]
-[24/05/2021 19:41:59]
-[24/05/2021 19:41:59]
-[24/05/2021 19:42:00]
-[24/05/2021 19:42:00]
-[24/05/2021 19:42:01]
-[24/05/2021 19:42:01]
-[24/05/2021 19:42:02]
-[24/05/2021 19:42:02]
-[24/05/2021 19:42:03]
-[24/05/2021 19:42:03]
-[24/05/2021 19:42:04]
-[24/05/2021 19:42:04]
-[24/05/2021 19:42:05]
-[24/05/2021 19:42:05]
-[24/05/2021 19:42:06]
-[24/05/2021 19:42:06]
-[24/05/2021 19:42:07]
-[24/05/2021 19:42:07]
-[24/05/2021 19:42:08]
-[24/05/2021 19:42:08]
-[24/05/2021 19:42:09]
-[24/05/2021 19:42:10]
-[24/05/2021 19:42:10]
-[24/05/2021 19:42:11]
-[24/05/2021 19:42:11]
-[24/05/2021 19:42:12]
-[24/05/2021 19:42:12]
-[24/05/2021 19:42:13]
-[24/05/2021 19:42:13]
-[24/05/2021 19:42:14]
-[24/05/2021 19:42:14]
-[24/05/2021 19:42:15]
-[24/05/2021 19:42:15]
-[24/05/2021 19:42:16]
-[24/05/2021 19:42:16]
-[24/05/2021 19:42:17]
-[24/05/2021 19:42:17]
-[24/05/2021 19:42:18]
-[24/05/2021 19:42:18]
-[24/05/2021 19:42:19]
-[24/05/2021 19:42:19]
-[24/05/2021 19:42:20]
-[24/05/2021 19:42:20]
-[24/05/2021 19:42:21]
-[24/05/2021 19:42:21]
-[24/05/2021 19:42:22]
-[24/05/2021 19:42:22]
-[24/05/2021 19:42:23]
-[24/05/2021 19:42:23]
-[24/05/2021 19:42:24]
-[24/05/2021 19:42:24]
-[24/05/2021 19:42:25]
-[24/05/2021 19:42:25]
-[24/05/2021 19:42:26]
-[24/05/2021 19:42:26]
-[24/05/2021 19:42:27]
-[24/05/2021 19:42:27]
-[24/05/2021 19:42:28]
-[24/05/2021 19:42:28]
-[24/05/2021 19:42:29]
-[24/05/2021 19:42:29]
-[24/05/2021 19:42:30]
-[24/05/2021 19:42:30]
-[24/05/2021 19:42:31]
-[24/05/2021 19:42:31]
-[24/05/2021 19:42:32]
-[24/05/2021 19:42:32]
-[24/05/2021 19:42:33]
-[24/05/2021 19:42:34]
-[24/05/2021 19:42:34]
+[24/05/2021 22:57:55]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 98ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 98ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 98ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 99ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 98ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 99ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 98ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 98ms
+[24/05/2021 22:57:55]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 354ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 562ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 436ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 436ms
+[24/05/2021 22:57:56]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 175ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 828ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 175ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 934ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 175ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 934ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 44ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 155ms
+[24/05/2021 22:57:56]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 542ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 239ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 449ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 495ms
+[24/05/2021 22:57:57]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 82ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 745ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 164ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 894ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 211ms
+[24/05/2021 22:57:57]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 449ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 576ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 260ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 260ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 721ms
+[24/05/2021 22:57:58]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 896ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 975ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 100ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 68ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 84ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 928ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 225ms
+[24/05/2021 22:57:58]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 706ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 481ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 691ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 741ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 741ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 675ms
+[24/05/2021 22:57:59]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 9ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 977ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 851ms
+[24/05/2021 22:57:59]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 386ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 401ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 652ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 574ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 496ms
+[24/05/2021 22:58:00]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 961ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 17ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 782ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 17ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 961ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 104ms
+[24/05/2021 22:58:00]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 675ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 439ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 519ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 738ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 486ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 769ms
+[24/05/2021 22:58:01]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 232ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 153ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 912ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 134ms
+[24/05/2021 22:58:01]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 686ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 344ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 639ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 507ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 624ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 344ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 492ms
+[24/05/2021 22:58:02]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 302ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 276ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 161ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 258ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 103ms
+[24/05/2021 22:58:02]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 816ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 785ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 349ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 317ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 768ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 730ms
+[24/05/2021 22:58:03]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 295ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 69ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 923ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 138ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 279ms
+[24/05/2021 22:58:03]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 698ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 698ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 550ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 740ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 628ms
+[24/05/2021 22:58:04]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 187ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 312ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 202ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 265ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 343ms
+[24/05/2021 22:58:04]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 601ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 421ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 523ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 459ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 459ms
+[24/05/2021 22:58:05]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 333ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 129ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 10ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 31ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 978ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 364ms
+[24/05/2021 22:58:05]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 630ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 536ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 880ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 739ms
+[24/05/2021 22:58:06]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 39ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 43ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 217ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 973ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 265ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 138ms
+[24/05/2021 22:58:06]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 665ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 794ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 747ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 827ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 683ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 779ms
+[24/05/2021 22:58:07]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 171ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 253ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 393ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 347ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 187ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 251ms
+[24/05/2021 22:58:07]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 677ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 708ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 489ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 567ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 456ms
+[24/05/2021 22:58:08]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 417ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 146ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 307ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 307ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 68ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 52ms
+[24/05/2021 22:58:08]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 482ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 654ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 810ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 560ms
+[24/05/2021 22:58:09]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 296ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 327ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 281ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 421ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 990ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 111ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 265ms
+[24/05/2021 22:58:09]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 689ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 720ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 925ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 891ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 626ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 876ms
+[24/05/2021 22:58:10]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 104ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 340ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 37ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 104ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 246ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 168ms
+[24/05/2021 22:58:10]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 605ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 861ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 846ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 814ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 558ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 908ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 780ms
+[24/05/2021 22:58:11]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 419ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 423ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 368ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 321ms
+[24/05/2021 22:58:11]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 534ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 568ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 552ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 880ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 802ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 944ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 693ms
+[24/05/2021 22:58:12]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 382ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 960ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 416ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 351ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 400ms
+[24/05/2021 22:58:12]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 796ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 764ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 573ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 604ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 765ms
+[24/05/2021 22:58:13]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 302ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 80ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 80ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 208ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 286ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 128ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 271ms
+[24/05/2021 22:58:13]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 729ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 584ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 712ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 823ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 839ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 537ms
+[24/05/2021 22:58:14]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 285ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 445ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 191ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 316ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 124ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 158ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 363ms
+[24/05/2021 22:58:14]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 555ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 539ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 961ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 977ms
+[24/05/2021 22:58:15]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 99ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 278ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 260ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 392ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 30ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 392ms
+[24/05/2021 22:58:16]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 805ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 905ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 648ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 851ms
+[24/05/2021 22:58:16]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 314ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 190ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 107ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 12ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 158ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 361ms
+[24/05/2021 22:58:17]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 517ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 899ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 820ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 820ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 931ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 963ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 769ms
+[24/05/2021 22:58:17]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 435ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 435ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 483ms
+[24/05/2021 22:58:18]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 814ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 861ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 623ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 639ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 767ms
+[24/05/2021 22:58:18]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 254ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 425ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 372ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 236ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 391ms
+[24/05/2021 22:58:19]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 680ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 962ms
+[24/05/2021 22:58:19]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 56ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 370ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 307ms
+[24/05/2021 22:58:20]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 965ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 981ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 622ms
+[24/05/2021 22:58:20]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 485ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 136ms
+[24/05/2021 22:58:21]
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 48ms
+[24/05/2021 22:58:21]
+[24/05/2021 22:58:22]
+[24/05/2021 22:58:22]
+[24/05/2021 22:58:23]
+[24/05/2021 22:58:23]
+[24/05/2021 22:58:24]
+[24/05/2021 22:58:24]
+[24/05/2021 22:58:25]
+[24/05/2021 22:58:25]
+[24/05/2021 22:58:26]
+[24/05/2021 22:58:26]
+[24/05/2021 22:58:27]
+[24/05/2021 22:58:27]
+[24/05/2021 22:58:28]
+[24/05/2021 22:58:28]
+[24/05/2021 22:58:29]
+[24/05/2021 22:58:29]
+[24/05/2021 22:58:30]
+[24/05/2021 22:58:30]
+[24/05/2021 22:58:31]
+[24/05/2021 22:58:31]
+[24/05/2021 22:58:32]
+[24/05/2021 22:58:32]
+[24/05/2021 22:58:33]
+[24/05/2021 22:58:33]
+[24/05/2021 22:58:34]
+[24/05/2021 22:58:34]
+[24/05/2021 22:58:35]
+[24/05/2021 22:58:35]
+[24/05/2021 22:58:36]
+[24/05/2021 22:58:36]
+[24/05/2021 22:58:37]
+[24/05/2021 22:58:37]
+[24/05/2021 22:58:38]
+[24/05/2021 22:58:38]
+[24/05/2021 22:58:39]
+[24/05/2021 22:58:39]
+[24/05/2021 22:58:40]
+[24/05/2021 22:58:40]
+[24/05/2021 22:58:41]
+[24/05/2021 22:58:41]
+[24/05/2021 22:58:42]
+[24/05/2021 22:58:42]
+[24/05/2021 22:58:43]
+[24/05/2021 22:58:43]
+[24/05/2021 22:58:44]
+[24/05/2021 22:58:44]
+[24/05/2021 22:58:45]
+[24/05/2021 22:58:45]
+[24/05/2021 22:58:46]
+[24/05/2021 22:58:46]
+[24/05/2021 22:58:47]
+[24/05/2021 22:58:47]
+[24/05/2021 22:58:48]
+[24/05/2021 22:58:48]
+[24/05/2021 22:58:49]
+[24/05/2021 22:58:49]
+[24/05/2021 22:58:50]
+[24/05/2021 22:58:50]
+[24/05/2021 22:58:51]
+[24/05/2021 22:58:51]
+[24/05/2021 22:58:52]
+[24/05/2021 22:58:52]

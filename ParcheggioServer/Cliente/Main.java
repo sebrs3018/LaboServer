@@ -1,7 +1,7 @@
 package Cliente;
-import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,19 +15,10 @@ public class Main {
         Cliente c7 = new Cliente("C7","Jeep");
         Cliente c8 = new Cliente("C8","BMW");
 
-        //"CD987BB"
-        //"CV166AT"
-        //"FE853IT"
-        //"FH246BN"
-        //"AL895TE"
-        //"DT852VR"
-        //"CF888ID"
-        //"DP777GK"
-
 
         ExecutorService es = Executors.newFixedThreadPool(8);
 
-        //for (int i = 0; i<5; i++){
+        for (int i = 0; i<10; i++){
             es.execute(c1);
             es.execute(c2);
             es.execute(c3);
@@ -36,8 +27,10 @@ public class Main {
             es.execute(c6);
             es.execute(c7);
             es.execute(c8);
-        //}
+        }
 
+        //Graceful termination...
+        es.shutdown();
 
     }
 }

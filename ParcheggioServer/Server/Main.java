@@ -7,18 +7,18 @@ import java.util.concurrent.TimeUnit;
 import java.util.Timer;
 import java.util.TimerTask;
 public class Main {
-    static int counter = 0;
-    static Timer timer;
 
     public static void main(String[] args) {
 
         Parcheggio parcheggio = new Parcheggio();
+        MultithreadedServer multithreadedServer = new MultithreadedServer(8080, parcheggio);
 
-        new Thread(new MultithreadedServer(8080, parcheggio)).start();
+        new Thread(multithreadedServer).start();
 
         CompletableFuture.runAsync(() -> {
             parcheggio.clearLog("Log.txt");
-            for(int i = 0; i<1000; i++){
+
+            while(!multithreadedServer.isStopped){
                 try {
                     TimeUnit.MILLISECONDS.sleep(500);
                     parcheggio.saveLog("Log.txt");
@@ -28,14 +28,12 @@ public class Main {
             }
         });
 
-
-        try{
-            Thread.sleep(20*1000);
-        } catch (InterruptedException e){
+        try {
+            Thread.sleep(60000); //dopo 60 secondi spengo il server
+            multithreadedServer.shutDownServer();
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
 
     }
 }
