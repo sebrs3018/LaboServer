@@ -34,30 +34,31 @@ public class Cliente implements Runnable {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
         dtf.format(LocalDateTime.now());
 
-        try (Socket socket = new Socket("localhost", 8080)) {
             for (int i = 0; i < NRO_RUN; i++) {
-                /* Richiesta ingresso ... */
-                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare enter parking");
-                enterParking(socket);
-                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Enter parking inviata, inizio sosta");
-                /* Simulazione sosta in parcheggio; da 1 a 10 secondi di sosta...*/
-                try {
-                    int r = new Random().nextInt(10);
-                    Thread.sleep(((r == 0) ? (1 + r) : r) * 1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                try (Socket socket = new Socket("localhost", 8080)) {
+                    /* Richiesta ingresso ... */
+                    System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare enter parking");
+                    enterParking(socket);
+                    System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Enter parking inviata, inizio sosta");
+                    /* Simulazione sosta in parcheggio; da 1 a 10 secondi di sosta...*/
+                    try {
+                        int r = new Random().nextInt(10);
+                        Thread.sleep(((r == 0) ? (1 + r) : r) * 1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    /* Richiesta uscita ... */
+                    System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare exit parking");
+                    exitParking(socket);
+                    System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Exit parking inviata");
+
+                } catch (UnknownHostException ex) {
+                    System.out.println("Server not found: " + ex.getMessage());
+                } catch (IOException ex) {
+                    System.out.println("I/O error: " + ex.getMessage());
                 }
-                /* Richiesta uscita ... */
-                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare exit parking");
-                exitParking(socket);
-                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Exit parking inviata");
             }
             System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Routine x5 terminata!");
-        } catch (UnknownHostException ex) {
-            System.out.println("Server not found: " + ex.getMessage());
-        } catch (IOException ex) {
-            System.out.println("I/O error: " + ex.getMessage());
-        }
     }
 
 
@@ -99,18 +100,13 @@ public class Cliente implements Runnable {
 
     private void waitResponse(Socket clientSocket) {
         try {
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
             InputStream input = clientSocket.getInputStream();
-            String requestString;
             BufferedReader reader = new BufferedReader(new InputStreamReader(input));
-            requestString = reader.readLine();
+            String requestString = reader.readLine();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        //rimane in attesa di avere un riga da leggere
-
-
-
     }
 }
 
