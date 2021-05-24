@@ -1,7 +1,9 @@
 package Server;
 
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -16,13 +18,14 @@ public class Parcheggio {
     Map<String, ClientInfo> Parcheggio = new ConcurrentHashMap<>(); //struttura dati per tenere traccia delle targhe e modelli
     private boolean isOutOfParking = false;
 
-    // costruttore per inizializzare le istanze (es. con il numero di posti totale)
-    public Parcheggio(int _nroPostiLiberi){
-    }
 
-    /*un metodo “ENTRATA(MARCA,TARGA)” per richiedere l’ingresso dall’unica via di accesso
+    /*
+
+    un metodo “ENTRATA(MARCA,TARGA)” per richiedere l’ingresso dall’unica via di accesso
     e memorizzare i dati dell’auto quando viene posteggiata. Il metodo deve essere
-    bloccante quando i posti sono tuZ occupati.*/
+    bloccante quando i posti sono tuZ occupati.
+
+    */
     public void Entrata(String Targa, String Marca, LocalTime oraRichiesta){
 
         /* La putIfAbsent mi garantisce un inserimento sincronizzato */
@@ -39,8 +42,10 @@ public class Parcheggio {
 //        System.out.println("\t- Fuori dal parcheggio: " + targa + "\n numero macchine rimanenti: " + Parcheggio.size());
     }
 
-    /* Un metodo “SALVA_LOG(FILENAME)” che salva sul file FILENAME la lista di auto
-    attualmente parcheggiate. */
+    /*
+    Un metodo “SALVA_LOG(FILENAME)” che salva sul file FILENAME la lista di auto
+    attualmente parcheggiate.
+    */
     public void saveLog(String filename){
         try {
             FileWriter myWriter = new FileWriter(filename, true);
@@ -56,7 +61,7 @@ public class Parcheggio {
 
                 String key = (String) pair.getKey();
                 ClientInfo clientInfo = (ClientInfo) pair.getValue();
-                myWriter.write("\tTarga: " + key + "\tModello: " + clientInfo.getMarca()  + "\ttempoGestione: " + clientInfo.getTempoGestione()+ "\n" );
+                myWriter.write("\tTarga: " + key + "\tModello: " + clientInfo.getMarca()  + "\ttempo di gestione richiesta: " + clientInfo.getTempoGestione()+ "ms\n" );
                 it.remove(); // avoids a ConcurrentModificationException
             }
 
@@ -65,6 +70,17 @@ public class Parcheggio {
             e.printStackTrace();
         }
 
+    }
+
+    public void clearLog(String filename){
+        PrintWriter writer = null;
+        try {
+            writer = new PrintWriter(filename);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        writer.print("");
+        writer.close();
     }
 
     public synchronized boolean isOutOfParking() {

@@ -14,12 +14,12 @@ public class MultithreadedServer implements  Runnable{
     protected Thread        runnningThread  = null;
     private final ExecutorService workerThreads;
     protected Parcheggio parcheggio;
-
+    private final int SERVER_CAPACITY = 2; //numero di client gestiti alla volta
 
     public MultithreadedServer(int port, Parcheggio _parcheggio){
         serverPort = port;
-        workerThreads = Executors.newFixedThreadPool(1);    //numero di client gestiti alla volta
         parcheggio = _parcheggio;
+        workerThreads = Executors.newFixedThreadPool(SERVER_CAPACITY);
     }
 
 
@@ -42,7 +42,6 @@ public class MultithreadedServer implements  Runnable{
             try{
                 clientSocket = serverSocket.accept();   //questo metodo è bloccante finchè non arriva una connessione
             } catch (IOException e) {
-
                 if(isStopped()){
                     System.out.println("Server is stopped!");
                     return;

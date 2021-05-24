@@ -6,19 +6,28 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        try {
-        Cliente c1 = new Cliente("a1","Volvo1");
-        Cliente c2 = new Cliente("a2","Volvo2");
-        Cliente c3 = new Cliente("a3","Volvo3");
-        Cliente c4 = new Cliente("a4","Volvo4");
-        Cliente c5 = new Cliente("a5","Volvo5");
-        Cliente c6 = new Cliente("a6","Volvo6");
-        Cliente c7 = new Cliente("a7","Volvo7");
-        Cliente c8 = new Cliente("a8","Volvo8");
+        Cliente c1 = new Cliente("C1","Volvo");
+        Cliente c2 = new Cliente("C2","Seat");
+        Cliente c3 = new Cliente("C3","Volvo");
+        Cliente c4 = new Cliente("C4","Mercedes");
+        Cliente c5 = new Cliente("C5","Fiat");
+        Cliente c6 = new Cliente("C6","Fiat");
+        Cliente c7 = new Cliente("C7","Jeep");
+        Cliente c8 = new Cliente("C8","BMW");
+
+        //"CD987BB"
+        //"CV166AT"
+        //"FE853IT"
+        //"FH246BN"
+        //"AL895TE"
+        //"DT852VR"
+        //"CF888ID"
+        //"DP777GK"
+
 
         ExecutorService es = Executors.newFixedThreadPool(8);
 
-        for (int i = 0; i<5; i++){
+        //for (int i = 0; i<5; i++){
             es.execute(c1);
             es.execute(c2);
             es.execute(c3);
@@ -27,13 +36,7 @@ public class Main {
             es.execute(c6);
             es.execute(c7);
             es.execute(c8);
-        }
-
-/*
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-*/
+        //}
 
 
     }

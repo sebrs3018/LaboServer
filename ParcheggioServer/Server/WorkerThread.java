@@ -3,7 +3,9 @@ package Server;
 import java.io.*;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
 public class WorkerThread implements Runnable {
@@ -21,34 +23,6 @@ public class WorkerThread implements Runnable {
 
     @Override
     public void run() {
-
-/*        try{
-            DataInputStream in = new DataInputStream(new BufferedInputStream(clientSocket.getInputStream()));
-            int length = in.readInt();  //leggo la dimensione del messaggio
-
-            byte[] messageByte = new byte[length];
-            boolean end = false;
-            StringBuilder dataString = new StringBuilder(length);
-            int totalBytesRead = 0;
-
-            while(!end) {
-                int currentBytesRead = in.read(messageByte);
-                totalBytesRead = currentBytesRead + totalBytesRead;
-                if(totalBytesRead <= length) {
-                    dataString
-                            .append(new String(messageByte, 0, currentBytesRead, StandardCharsets.UTF_8));
-                } else {
-                    dataString
-                            .append(new String(messageByte, 0, length - totalBytesRead + currentBytesRead,
-                                    StandardCharsets.UTF_8));
-                }
-                if(dataString.length()>=length) {
-                    end = true;
-                }
-            }
-            handleRequest(dataString.toString());
-            */
-
         /* TODO: verificare corretta stampa e concorrenza*/
         try(InputStream input = clientSocket.getInputStream()){
                 while(!LastRequest){
@@ -56,12 +30,25 @@ public class WorkerThread implements Runnable {
                     String requestString = reader.readLine();   //rimane in attesa di avere un riga da leggere
                     if(requestString != null){
                         handleRequest(requestString);
-                        System.out.println("Request processed: " + requestString);
+                        sendResponse();
+                        //System.out.println("Request processed: " + requestString);
                     }
                 }
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
+    }
+
+    private void sendResponse() {
+        try {
+            OutputStream output = clientSocket.getOutputStream();
+            PrintWriter writer = new PrintWriter(output, true);
+            writer.println("OK");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
 
@@ -70,23 +57,19 @@ public class WorkerThread implements Runnable {
     */
     private void handleRequest(String requestString){
         String[] parsedString = parseRequest(requestString);
-
-/*        for (var val : parsedString){
-            System.out.print(val + " ");
-        }
-        System.out.println("\n");*/
-
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
         if(parsedString[0].equals("0")){
             var timeToPass = LocalTime.parse( parsedString[3] ) ;
             parcheggio.Entrata(parsedString[2], parsedString[1], timeToPass);
+            System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + "Server: "+ parsedString[2] +"è dentro al parcheggio!");
+
         }
         else if (parsedString[0].equals("1")){
             parcheggio.Uscita(parsedString[2]);
+            System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + "Server: "+ parsedString[2] +"è uscito dal parcheggio!");
+
             LastRequest = true;
         }
-
-
-
     }
 
     /* Precondizione: marca, targa e data/ora non sono nulli */
@@ -95,6 +78,7 @@ public class WorkerThread implements Runnable {
         return requestString.split(delimSpace);
 
     }
+
 
 
 }

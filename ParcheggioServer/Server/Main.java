@@ -12,34 +12,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Parcheggio parcheggio = new Parcheggio(100);
+        Parcheggio parcheggio = new Parcheggio();
 
         new Thread(new MultithreadedServer(8080, parcheggio)).start();
 
         CompletableFuture.runAsync(() -> {
-            for(int i = 0; i<100; i++){
+            parcheggio.clearLog("Log.txt");
+            for(int i = 0; i<1000; i++){
                 try {
                     TimeUnit.MILLISECONDS.sleep(500);
-                    parcheggio.saveLog("Log.txt");   //è tempo di chiusura
+                    parcheggio.saveLog("Log.txt");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
         });
 
-
-
-/*        TimerTask timerTask = new TimerTask() {
-            @Override
-            public void run() {
-                if(counter <= 10)
-                    parcheggio.saveLog("Log.txt");   //è tempo di chiusura
-                counter++;
-            }
-        };*/
- /*       timer = new Timer("MyTimer");//create a new Timer
-        timer.schedule(timerTask, 0, 500);//this line starts the timer at the same time its executed
-*/
 
         try{
             Thread.sleep(20*1000);

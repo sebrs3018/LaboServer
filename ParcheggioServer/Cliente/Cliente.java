@@ -8,6 +8,8 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
@@ -28,45 +30,41 @@ public class Cliente implements Runnable {
     }
 
 
+    public void run() {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
+        dtf.format(LocalDateTime.now());
 
-    public void run(){
-
-        try(Socket socket = new Socket("localhost", 8080)){
-            for (int i = 0; i<NRO_RUN; i++){
+        try (Socket socket = new Socket("localhost", 8080)) {
+            for (int i = 0; i < NRO_RUN; i++) {
                 /* Richiesta ingresso ... */
+                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare enter parking");
                 enterParking(socket);
-                /* Simulazione sosta in parcheggio ...*/
+                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Enter parking inviata, inizio sosta");
+                /* Simulazione sosta in parcheggio; da 1 a 10 secondi di sosta...*/
                 try {
-                    var r = new Random().nextInt(10);
-                    System.out.println("rand: " + r * 1000 );
-                    Thread.sleep ( (r + 1) * 500);
+                    int r = new Random().nextInt(10);
+                    Thread.sleep(((r == 0) ? (1 + r) : r) * 1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
                 /* Richiesta uscita ... */
+                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Sta per inviare exit parking");
                 exitParking(socket);
+                System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Exit parking inviata");
             }
+            System.out.println("[" + dtf.format(LocalDateTime.now()) + "]" + targa + ": Routine x5 terminata!");
         } catch (UnknownHostException ex) {
-        System.out.println("Server not found: " + ex.getMessage());
+            System.out.println("Server not found: " + ex.getMessage());
         } catch (IOException ex) {
             System.out.println("I/O error: " + ex.getMessage());
         }
     }
 
 
-    private  void enterParking(Socket clientSocket){
+    private void enterParking(Socket clientSocket) {
         try {
-/*            String requestString = initRequestString("0");
-            var dataBytes = requestString.getBytes(StandardCharsets.UTF_8);
-
-            DataOutputStream out = null;
-
-            out = new DataOutputStream(clientSocket.getOutputStream());
-            out.writeInt(dataBytes.length); //dimensione del messaggio
-            out.write(dataBytes);           //payload*/
-
             writeMessage(clientSocket, initRequestString("0"));
-
+            waitResponse(clientSocket);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -74,22 +72,11 @@ public class Cliente implements Runnable {
     }
 
 
-
-    private  void exitParking(Socket clientSocket){
+    private void exitParking(Socket clientSocket) {
 
         try {
-            System.out.println("\tRischiesta di uscita...");
-            String requestString = initRequestString("1");
-/*            var dataBytes = requestString.getBytes(StandardCharsets.UTF_8);
-
-            DataOutputStream out = null;
-
-            out = new DataOutputStream(clientSocket.getOutputStream());
-            out.writeInt(dataBytes.length); //dimensione del messaggio
-            out.write(dataBytes);           //payload*/
-
-        writeMessage(clientSocket, requestString);
-            System.out.println("\t\t Fine rischiesta di uscita...");
+            writeMessage(clientSocket, initRequestString("1"));
+            waitResponse(clientSocket);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -97,17 +84,33 @@ public class Cliente implements Runnable {
 
     }
 
-    private String initRequestString(String request){
+    private String initRequestString(String request) {
         SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
         Date date = new Date();
         return request + " " + marca + " " + targa + " " + formatter.format(date);
     }
 
 
-    private void writeMessage(Socket clientSocket, String requestString) throws  IOException{
+    private void writeMessage(Socket clientSocket, String requestString) throws IOException {
         OutputStream output = clientSocket.getOutputStream();
         PrintWriter writer = new PrintWriter(output, true);
         writer.println(requestString);
     }
 
+    private void waitResponse(Socket clientSocket) {
+        try {
+            InputStream input = clientSocket.getInputStream();
+            String requestString;
+            BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+            requestString = reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //rimane in attesa di avere un riga da leggere
+
+
+
+    }
 }
+
