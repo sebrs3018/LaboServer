@@ -14,7 +14,6 @@ public class ClientInfo {
         return marca;
     }
 
-
     public String getTempoGestione() {
         return tempoGestione.toString();
     }

@@ -25,7 +25,6 @@ public class Cliente implements Runnable {
         marca = _marca;
     }
 
-
     public void run() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
         dtf.format(LocalDateTime.now());
@@ -39,7 +38,7 @@ public class Cliente implements Runnable {
                     /* Simulazione sosta in parcheggio; da 1 a 10 secondi di sosta...*/
                     try {
                         int r = new Random().nextInt(10);
-                        Thread.sleep(((r == 0) ? (1 + r) : r) * 100);
+                        Thread.sleep(((r == 0) ? (1 + r) : r) * 1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -53,13 +52,12 @@ public class Cliente implements Runnable {
     }
 
     /* Per ogni richiesta di ingresso ed uscita, apro un nuovo socket! */
-
     private void enterParking() {
         try (Socket socket = new Socket("localhost", 8080)) {
             writeMessage(socket, initRequestString("0"));
             waitResponse(socket);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
     }
@@ -72,7 +70,7 @@ public class Cliente implements Runnable {
             String requestString;
 
             while((requestString = reader.readLine()) != null){
-                System.out.println(requestString);
+                System.out.println("\t\t" +requestString);
             }
 
         } catch (IOException e) {
@@ -85,7 +83,7 @@ public class Cliente implements Runnable {
             writeMessage(socket, initRequestString("1"));
             waitResponse(socket);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -98,7 +96,6 @@ public class Cliente implements Runnable {
     private void writeMessage(Socket clientSocket, String requestString) throws IOException {
         OutputStream output = clientSocket.getOutputStream();
         PrintWriter writer = new PrintWriter(output, true);
-        System.out.println(" " + requestString);
         writer.println(requestString);
     }
 

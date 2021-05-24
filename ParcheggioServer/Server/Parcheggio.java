@@ -10,7 +10,6 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Parcheggio {
@@ -81,7 +80,6 @@ public class Parcheggio {
         writer.print("");
         writer.close();
     }
-
 
     public synchronized void setOutOfParking(boolean outOfParking) {
         isOutOfParking = outOfParking;

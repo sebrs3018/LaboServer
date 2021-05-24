@@ -1,385 +1,218 @@
-[24/05/2021 22:57:55]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 98ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 98ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 98ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 99ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 98ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 99ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 98ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 98ms
-[24/05/2021 22:57:55]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 354ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 562ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 436ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 436ms
-[24/05/2021 22:57:56]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 175ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 828ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 175ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 934ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 175ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 934ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 44ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 155ms
-[24/05/2021 22:57:56]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 542ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 239ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 449ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 495ms
-[24/05/2021 22:57:57]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 82ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 745ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 164ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 894ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 211ms
-[24/05/2021 22:57:57]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 449ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 576ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 260ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 260ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 721ms
-[24/05/2021 22:57:58]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 896ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 975ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 100ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 68ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 84ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 928ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 225ms
-[24/05/2021 22:57:58]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 706ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 481ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 691ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 741ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 741ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 675ms
-[24/05/2021 22:57:59]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 9ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 977ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 851ms
-[24/05/2021 22:57:59]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 386ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 401ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 652ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 574ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 496ms
-[24/05/2021 22:58:00]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 961ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 17ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 782ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 17ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 961ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 104ms
-[24/05/2021 22:58:00]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 675ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 439ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 519ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 738ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 486ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 769ms
-[24/05/2021 22:58:01]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 232ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 153ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 912ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 134ms
-[24/05/2021 22:58:01]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 686ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 344ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 639ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 507ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 624ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 344ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 492ms
-[24/05/2021 22:58:02]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 302ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 276ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 161ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 258ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 103ms
-[24/05/2021 22:58:02]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 816ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 785ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 349ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 317ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 768ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 730ms
-[24/05/2021 22:58:03]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 295ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 69ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 923ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 138ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 279ms
-[24/05/2021 22:58:03]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 698ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 698ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 550ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 740ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 628ms
-[24/05/2021 22:58:04]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 187ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 312ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 202ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 265ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 343ms
-[24/05/2021 22:58:04]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 601ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 421ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 523ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 459ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 459ms
-[24/05/2021 22:58:05]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 333ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 129ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 10ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 31ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 978ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 364ms
-[24/05/2021 22:58:05]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 630ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 536ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 880ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 739ms
-[24/05/2021 22:58:06]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 39ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 43ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 217ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 973ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 265ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 138ms
-[24/05/2021 22:58:06]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 665ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 794ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 747ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 827ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 683ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 779ms
-[24/05/2021 22:58:07]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 171ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 253ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 393ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 347ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 187ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 251ms
-[24/05/2021 22:58:07]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 677ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 708ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 489ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 567ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 456ms
-[24/05/2021 22:58:08]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 417ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 146ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 307ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 307ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 68ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 52ms
-[24/05/2021 22:58:08]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 482ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 654ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 810ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 560ms
-[24/05/2021 22:58:09]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 296ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 327ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 281ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 421ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 990ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 111ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 265ms
-[24/05/2021 22:58:09]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 689ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 720ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 925ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 891ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 626ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 876ms
-[24/05/2021 22:58:10]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 104ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 340ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 37ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 104ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 246ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 168ms
-[24/05/2021 22:58:10]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 605ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 861ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 846ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 814ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 558ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 908ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 780ms
-[24/05/2021 22:58:11]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 419ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 423ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 368ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 321ms
-[24/05/2021 22:58:11]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 534ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 568ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 552ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 880ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 802ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 944ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 693ms
-[24/05/2021 22:58:12]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 382ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 960ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 416ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 351ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 400ms
-[24/05/2021 22:58:12]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 796ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 764ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 573ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 604ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 765ms
-[24/05/2021 22:58:13]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 302ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 80ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 80ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 208ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 286ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 128ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 271ms
-[24/05/2021 22:58:13]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 729ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 584ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 712ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 823ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 839ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 537ms
-[24/05/2021 22:58:14]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 285ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 445ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 191ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 316ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 124ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 158ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 363ms
-[24/05/2021 22:58:14]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 555ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 539ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 961ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 977ms
-[24/05/2021 22:58:15]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 99ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 278ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 260ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 392ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 30ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 392ms
-[24/05/2021 22:58:16]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 805ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 905ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 648ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 851ms
-[24/05/2021 22:58:16]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 314ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 190ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 107ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 12ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 158ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 361ms
-[24/05/2021 22:58:17]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 517ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 899ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 820ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 820ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 931ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 963ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 769ms
-[24/05/2021 22:58:17]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 435ms
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 435ms
-	Targa: C2	Modello: Seat	tempo di gestione richiesta: 483ms
-[24/05/2021 22:58:18]
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 814ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 861ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 623ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 639ms
-	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 767ms
-[24/05/2021 22:58:18]
-	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 254ms
-	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 425ms
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 372ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 236ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 391ms
-[24/05/2021 22:58:19]
-	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 680ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 962ms
-[24/05/2021 22:58:19]
+[24/05/2021 23:07:44]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 953ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 953ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 953ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 953ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 953ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 953ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 953ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 953ms
+[24/05/2021 23:07:44]
+[24/05/2021 23:07:45]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 982ms
+[24/05/2021 23:07:45]
+[24/05/2021 23:07:46]
+[24/05/2021 23:07:46]
+[24/05/2021 23:07:47]
+[24/05/2021 23:07:47]
+[24/05/2021 23:07:48]
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 984ms
+[24/05/2021 23:07:48]
+[24/05/2021 23:07:49]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 989ms
+[24/05/2021 23:07:49]
+[24/05/2021 23:07:50]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 3ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 990ms
+[24/05/2021 23:07:50]
+[24/05/2021 23:07:51]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 998ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 998ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 998ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 984ms
+[24/05/2021 23:07:51]
+[24/05/2021 23:07:52]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 997ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 1ms
+[24/05/2021 23:07:52]
+[24/05/2021 23:07:53]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 2ms
+[24/05/2021 23:07:53]
+[24/05/2021 23:07:54]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 18ms
+[24/05/2021 23:07:54]
+[24/05/2021 23:07:55]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 7ms
+[24/05/2021 23:07:55]
+[24/05/2021 23:07:56]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 21ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 7ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 994ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 7ms
+[24/05/2021 23:07:56]
+[24/05/2021 23:07:57]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 26ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 26ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 994ms
+[24/05/2021 23:07:57]
+[24/05/2021 23:07:58]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 14ms
+[24/05/2021 23:07:58]
+[24/05/2021 23:07:59]
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 13ms
+[24/05/2021 23:07:59]
+[24/05/2021 23:08:00]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 14ms
+[24/05/2021 23:08:00]
+[24/05/2021 23:08:01]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 23ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 23ms
+[24/05/2021 23:08:01]
+[24/05/2021 23:08:02]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 36ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 23ms
+[24/05/2021 23:08:02]
+[24/05/2021 23:08:03]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 39ms
+[24/05/2021 23:08:03]
+[24/05/2021 23:08:04]
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 15ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 32ms
+[24/05/2021 23:08:04]
+[24/05/2021 23:08:05]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 53ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 36ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 12ms
+[24/05/2021 23:08:05]
+[24/05/2021 23:08:06]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 44ms
+[24/05/2021 23:08:06]
+[24/05/2021 23:08:07]
+[24/05/2021 23:08:07]
+[24/05/2021 23:08:08]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 58ms
+[24/05/2021 23:08:08]
+[24/05/2021 23:08:09]
+[24/05/2021 23:08:09]
+[24/05/2021 23:08:10]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 38ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 23ms
+[24/05/2021 23:08:10]
+[24/05/2021 23:08:11]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 63ms
+[24/05/2021 23:08:11]
+[24/05/2021 23:08:12]
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 45ms
+[24/05/2021 23:08:12]
+[24/05/2021 23:08:13]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 59ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 90ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 38ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 25ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 38ms
+[24/05/2021 23:08:13]
+[24/05/2021 23:08:14]
+[24/05/2021 23:08:14]
+[24/05/2021 23:08:15]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 46ms
+[24/05/2021 23:08:16]
+[24/05/2021 23:08:16]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 53ms
+[24/05/2021 23:08:17]
+[24/05/2021 23:08:17]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 68ms
+[24/05/2021 23:08:18]
+[24/05/2021 23:08:18]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 103ms
+[24/05/2021 23:08:19]
+[24/05/2021 23:08:19]
 	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 56ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 370ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 307ms
-[24/05/2021 22:58:20]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 965ms
-	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 981ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 622ms
-[24/05/2021 22:58:20]
-	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 485ms
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 136ms
-[24/05/2021 22:58:21]
-	Targa: C8	Modello: BMW	tempo di gestione richiesta: 48ms
-[24/05/2021 22:58:21]
-[24/05/2021 22:58:22]
-[24/05/2021 22:58:22]
-[24/05/2021 22:58:23]
-[24/05/2021 22:58:23]
-[24/05/2021 22:58:24]
-[24/05/2021 22:58:24]
-[24/05/2021 22:58:25]
-[24/05/2021 22:58:25]
-[24/05/2021 22:58:26]
-[24/05/2021 22:58:26]
-[24/05/2021 22:58:27]
-[24/05/2021 22:58:27]
-[24/05/2021 22:58:28]
-[24/05/2021 22:58:28]
-[24/05/2021 22:58:29]
-[24/05/2021 22:58:29]
-[24/05/2021 22:58:30]
-[24/05/2021 22:58:30]
-[24/05/2021 22:58:31]
-[24/05/2021 22:58:31]
-[24/05/2021 22:58:32]
-[24/05/2021 22:58:32]
-[24/05/2021 22:58:33]
-[24/05/2021 22:58:33]
-[24/05/2021 22:58:34]
-[24/05/2021 22:58:34]
-[24/05/2021 22:58:35]
-[24/05/2021 22:58:35]
-[24/05/2021 22:58:36]
-[24/05/2021 22:58:36]
-[24/05/2021 22:58:37]
-[24/05/2021 22:58:37]
-[24/05/2021 22:58:38]
-[24/05/2021 22:58:38]
-[24/05/2021 22:58:39]
-[24/05/2021 22:58:39]
-[24/05/2021 22:58:40]
-[24/05/2021 22:58:40]
-[24/05/2021 22:58:41]
-[24/05/2021 22:58:41]
-[24/05/2021 22:58:42]
-[24/05/2021 22:58:42]
-[24/05/2021 22:58:43]
-[24/05/2021 22:58:43]
-[24/05/2021 22:58:44]
-[24/05/2021 22:58:44]
-[24/05/2021 22:58:45]
-[24/05/2021 22:58:45]
-[24/05/2021 22:58:46]
-[24/05/2021 22:58:46]
-[24/05/2021 22:58:47]
-[24/05/2021 22:58:47]
-[24/05/2021 22:58:48]
-[24/05/2021 22:58:48]
-[24/05/2021 22:58:49]
-[24/05/2021 22:58:49]
-[24/05/2021 22:58:50]
-[24/05/2021 22:58:50]
-[24/05/2021 22:58:51]
-[24/05/2021 22:58:51]
-[24/05/2021 22:58:52]
-[24/05/2021 22:58:52]
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 56ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 56ms
+[24/05/2021 23:08:20]
+[24/05/2021 23:08:20]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 67ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 65ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 65ms
+[24/05/2021 23:08:21]
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 36ms
+[24/05/2021 23:08:21]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 70ms
+[24/05/2021 23:08:22]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 75ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 46ms
+[24/05/2021 23:08:22]
+[24/05/2021 23:08:23]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 90ms
+[24/05/2021 23:08:23]
+[24/05/2021 23:08:24]
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 67ms
+[24/05/2021 23:08:24]
+[24/05/2021 23:08:25]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 81ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 81ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 96ms
+[24/05/2021 23:08:25]
+[24/05/2021 23:08:26]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 120ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 59ms
+[24/05/2021 23:08:26]
+[24/05/2021 23:08:27]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 96ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 110ms
+[24/05/2021 23:08:27]
+[24/05/2021 23:08:28]
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 79ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 91ms
+[24/05/2021 23:08:28]
+[24/05/2021 23:08:29]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 136ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 73ms
+[24/05/2021 23:08:29]
+[24/05/2021 23:08:30]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 85ms
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 156ms
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 85ms
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 101ms
+[24/05/2021 23:08:30]
+[24/05/2021 23:08:31]
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 114ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 131ms
+[24/05/2021 23:08:31]
+[24/05/2021 23:08:32]
+	Targa: C1	Modello: Volvo	tempo di gestione richiesta: 133ms
+[24/05/2021 23:08:32]
+[24/05/2021 23:08:33]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 102ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 86ms
+[24/05/2021 23:08:33]
+[24/05/2021 23:08:34]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 98ms
+	Targa: C8	Modello: BMW	tempo di gestione richiesta: 67ms
+[24/05/2021 23:08:34]
+[24/05/2021 23:08:35]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 168ms
+[24/05/2021 23:08:35]
+[24/05/2021 23:08:36]
+[24/05/2021 23:08:36]
+[24/05/2021 23:08:37]
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 117ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 133ms
+[24/05/2021 23:08:37]
+[24/05/2021 23:08:38]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 102ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 123ms
+[24/05/2021 23:08:38]
+[24/05/2021 23:08:39]
+	Targa: C3	Modello: Volvo	tempo di gestione richiesta: 112ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 128ms
+	Targa: C2	Modello: Seat	tempo di gestione richiesta: 144ms
+[24/05/2021 23:08:39]
+[24/05/2021 23:08:40]
+	Targa: C4	Modello: Mercedes	tempo di gestione richiesta: 173ms
+	Targa: C5	Modello: Fiat	tempo di gestione richiesta: 132ms
+	Targa: C6	Modello: Fiat	tempo di gestione richiesta: 132ms
+[24/05/2021 23:08:40]
+[24/05/2021 23:08:41]
+	Targa: C7	Modello: Jeep	tempo di gestione richiesta: 156ms
+[24/05/2021 23:08:41]
